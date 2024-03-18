@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #5E2E53;
+}
+
+.root-layout {
+  margin: 0;
+
+}
+
+a {
+
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+
+  background-color: black;
+  color: white;
+
+}
+
+.popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.451);
+  width: 100vw;
+}
+
+.primary-btn {
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: #5E2E53;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  border: 1px solid gray;
+}
+
+.card {
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.activity-preview {
+  background-size: cover;
+  height: 300px;
+  margin: 30px 20px;
+  border-radius: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.preview-caption {
+  background-color: rgba(225, 161, 233, 0.8);
+  border-radius: 0 20px 0 20px;
+  padding: 15px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.error{
+  color: red;
+  background-color: orange;
+}
+
+.grayout{
+  background-color: #44293ee3;
+  color: gray;
+}
